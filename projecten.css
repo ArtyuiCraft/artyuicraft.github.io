@@ -1,0 +1,38 @@
+.projecten-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.projecten-logo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projecten-image {
+  top: -14px;
+  left: -100px;
+  width: 81px;
+  height: 85px;
+  position: absolute;
+  object-fit: cover;
+}
+.projecten-text {
+  font-size: 50px;
+}
+.projecten-hero {
+  height: 852px;
+  position: relative;
+}
+.projecten-max-width1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-items: center;
+}
+@media(max-width: 767px) {
+  .projecten-max-width1 {
+    flex-direction: column-reverse;
+  }
+}

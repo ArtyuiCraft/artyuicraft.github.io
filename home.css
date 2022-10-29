@@ -1,0 +1,96 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-logo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-image {
+  top: -14px;
+  left: -100px;
+  width: 81px;
+  height: 85px;
+  position: absolute;
+  object-fit: cover;
+}
+.home-text {
+  font-size: 50px;
+}
+.home-hero {
+  height: 852px;
+  position: relative;
+}
+.home-max-width1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-items: center;
+}
+.home-knoppen {
+  top: 233px;
+  left: 79px;
+  width: 1407px;
+  height: 345px;
+  position: absolute;
+}
+.home-text1 {
+  left: 6px;
+  color: rgb(249, 249, 249);
+  width: 500px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 30px;
+}
+.home-text2 {
+  color: rgb(249, 249, 249);
+  right: 0px;
+  width: 500px;
+  bottom: 2px;
+  position: absolute;
+  font-size: 30px;
+}
+.home-navlink {
+  top: 0px;
+  left: 0px;
+  width: 422px;
+  height: 237px;
+  position: absolute;
+  font-size: 60px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.home-navlink:hover {
+  width: 517px;
+  height: 275px;
+}
+.home-navlink:disabled {
+  width: 480px;
+  height: 271px;
+}
+.home-button {
+  top: 0px;
+  right: 49px;
+  width: 422px;
+  height: 237px;
+  position: absolute;
+  font-size: 60px;
+  transition: 0.3s;
+}
+.home-button:hover {
+  width: 478px;
+  height: 267px;
+}
+.home-button:disabled {
+  width: 480px;
+  height: 271px;
+}
+@media(max-width: 767px) {
+  .home-max-width1 {
+    flex-direction: column-reverse;
+  }
+}
